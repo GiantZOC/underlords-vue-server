@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Server project for fullstack-vue-graphql site",
   "scripts": {
-    "netlify-serve": "netlify-lambda serve lambda",
-    "netlify-build": "netlify-lambda build lambda",
-    "netlify-install": "netlify-lambda install lambda"
+    "serve": "netlify-lambda serve lambda",
+    "build": "netlify-lambda build lambda",
+    "install": "netlify-lambda install lambda"
   },
   "keywords": [],
   "author": "Steven Clipson",

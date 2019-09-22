@@ -13,7 +13,7 @@ const typeDefs = gql`
   
   
   type Query {
-    getItem(name: String): Item
+    getItem(itemId: ID): Item
     getItems: [Item]
   }
 `;
