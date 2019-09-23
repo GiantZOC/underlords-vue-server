@@ -612,6 +612,11 @@
                 "Ability_Image": "/images/spellicons/dragon_knight_breathe_fire_png.png",
                 "Ability": "Breathe Fire",
                 "Description": "Unleashes a breath of fire in front of Dragon Knight that burns enemies for [200/350/500] damage and reduces the damage their attacks deal by [25/40/55] for 6 seconds."
+            },
+            {
+                "Ability_Image": "/images/spellicons/dragon_knight_elder_dragon_form_png.png",
+                "Ability": "Elder Dragon Form",
+                "Description": "Unlocked by the Dragon Alliance bonus.  Passive: At the beginning of combat Dragon Knight takes the form one of three powerful elder dragons, increasing his movement speed by 30% and attack damage by [50/100/150] and granting him new powers.  Green Dragon: Attacks deal 30 poison damage per second for 5 seconds.  Red Dragon: In addition to poisoning enemies, attacks damage all enemy units 1 cell away from the target for 50% damage.  Blue Dragon: In addition to poisoning enemies, Slows movement speed by -30% and attack speed by -30% to enemy units 1 cell away from the target for 3 seconds. "
             }
         ],
         "Lore_Text": "Davion, your talents are being wasted on someone who doesn't appreciate the beauty of what you do. - In which Hobgen tries to poach talent"
@@ -1148,9 +1153,14 @@
         "Hero_Image": "/images/heroes/medusa_full.png",
         "Abilities": [
             {
-                "Ability_Image": "/images/spellicons/medusa_split_shot_png.png",
+                "Ability_Image": "/images/spellicons/medusa_stone_gaze_png.png",
                 "Ability": "Stone Gaze",
                 "Description": "Any enemy unit up to 3 cells away looking at Medusa will have their movement and attack speed slowed by 30%.  If 2 seconds of total time is accumulated looking at Medusa, that unit will turn to stone. Petrified units are stunned, and take bonus 20% physical damage."
+            },
+            {
+                "Ability_Image": "/images/spellicons/medusa_split_shot_png.png",
+                "Ability": "Split Shot",
+                "Description": "Passive: Medusa magically shoots up to [2,3,4] extra arrows, hitting additional targets within 1 cell of her primary target. The additional arrows deal -20% of her primary arrow's damage."
             }
         ],
         "Lore_Text": "undefined",
@@ -1481,6 +1491,11 @@
                 "Ability_Image": "/images/spellicons/puck_illusory_orb_png.png",
                 "Ability": "Illusory Orb",
                 "Description": "Puck launches a magic orb that floats in a straight path, damaging enemy units along the way for [150/200/250] damage."
+            },
+            {
+                "Ability_Image": "/images/spellicons/puck_phase_shift_png.png",
+                "Ability": "Phase Shift",
+                "Description": "Unlocked by the Dragon Alliance bonus.  Passive: Just before taking damage, Puck briefly shifts into another dimension where it is immune from harm for 0.5 seconds. "
             }
         ],
         "Lore_Text": "Don't let the way he looks fool you, Puck is a right bastard. - In which Hobgen gives some words of wisdom"
@@ -1643,6 +1658,11 @@
         "Abilities": [
             {
                 "Ability_Image": "/images/spellicons/sand_king_burrowstrike_png.png",
+                "Ability": "Burrowstrike",
+                "Description": "Sand King burrows down into the ground and tunnels forward, hitting enemies for [150/250/350] damage and stunning them for 2 seconds.  Applies a stack of Caustic Finale to all enemies hit."
+            },
+            {
+                "Ability_Image": "/images/spellicons/sand_king_caustic_finale_png.png",
                 "Ability": "Caustic Finale",
                 "Description": "PASSIVE: Whenever Sand King hits an enemy they are poisoned for 3.5 seconds. When the poison expires, it bursts for [50/100/200] damage and slows the attack speed of all enemies adjacent to the target by -35 for 1.75 seconds. Damage is halved if the target is still alive."
             }
@@ -1806,6 +1826,11 @@
         "Hero_Image": "/images/heroes/slark_full.png",
         "Abilities": [
             {
+                "Ability_Image": "/images/spellicons/slark_essence_shift_png.png",
+                "Ability": "Essence Shift",
+                "Description": "Passive: Every attack by Slark lowers his target's damage by [3/4/5].  Slark's damage is increased by [3/4/5] and his attack speed is increased by [3/5/7]. "
+            },
+            {
                 "Ability_Image": "/images/spellicons/slark_pounce_png.png",
                 "Ability": "Pounce",
                 "Description": "PASSIVE: After landing from a leap, Slark disarms his target for 3 seconds."
@@ -1932,6 +1957,11 @@
                 "Ability_Image": "/images/spellicons/templar_assassin_refraction_png.png",
                 "Ability": "Refraction",
                 "Description": "Templar Assassin becomes elusive, avoiding damage and gaining [40/60/80]% bonus to her damage.  The damage and avoidance effects are separate, and have [4/6/8] instances each."
+            },
+            {
+                "Ability_Image": "/images/spellicons/templar_assassin_meld_png.png",
+                "Ability": "Meld",
+                "Description": "Passive: After teleporting to her target, Templar Assassin does [50/100/150] extra damage on her first attack and lowers her target's armor by [2/4/6] for 5 seconds."
             }
         ],
         "Lore_Text": "If you help me, our debt is settled. - In which Wren gets all the help she can get"
@@ -2341,9 +2371,14 @@
         "Hero_Image": "/images/heroes/viper_full.png",
         "Abilities": [
             {
-                "Ability_Image": "/images/spellicons/viper_corrosive_skin_png.png",
+                "Ability_Image": "/images/spellicons/viper_viper_strike_png.png",
                 "Ability": "Viper Strike",
                 "Description": "Viper's acidic venom slows an enemy unit's movement and attack speed by [-40/-60/-80]% while also dealing [150/250/350] poison damage over time.  The slowing effect fades over the duration of the poison."
+            },
+            {
+                "Ability_Image": "/images/spellicons/viper_corrosive_skin_png.png",
+                "Ability": "Corrosive Skin",
+                "Description": "Unlocked by the Dragon Alliance bonus.  Passive: Viper exudes an infectious toxin that deals [20/30/40] damage per second and slows the attack speed of any enemy that damage it for 2 seconds. The acid exudate also increases Viper's magic resistance by 30/50/70. "
             }
         ],
         "Lore_Text": "We're not that different... I too, know what it means to be a slave. - Quiet, Plotting Automoton"
