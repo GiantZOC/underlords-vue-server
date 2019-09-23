@@ -34,14 +34,14 @@ const typeDefs = gql`
   }
 
   input AbilityInput {
-    Ability_Image: String!
     Ability: String!
+    Ability_Image: String!
     Description: String!
   }
 
   type Ability {
-    Ability_Image: String!
     Ability: String!
+    Ability_Image: String!
     Description: String!
   }
 

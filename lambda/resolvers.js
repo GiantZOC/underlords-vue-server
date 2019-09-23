@@ -19,6 +19,14 @@ module.exports = {
             const alliance = await Alliance.findOne({_id: allianceId});
             return alliance;
         },
+        getHeroes: async(_, args, {Hero}) => {
+            const heroes = await Hero.find({});
+            return heroes;
+        },
+        getHero: async (_, {heroId}, {Hero}) => {
+            const hero = await Hero.findOne({_id: heroId});
+            return hero;
+        },
     },
     Mutation: {
         addItem: async (_, {name, img, tier, type, flavortext}, {Item}) =>{

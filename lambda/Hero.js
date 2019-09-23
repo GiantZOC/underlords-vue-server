@@ -123,7 +123,7 @@ const HeroSchema = new mongoose.Schema({
     },
     Abilities: [{
         Ability_Image: {
-            type: Number,
+            type: String,
             required: true
         },
         Ability: {
