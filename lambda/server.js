@@ -8,6 +8,8 @@ const resolvers = require("./resolvers");
 // import environment variable and models
 require("dotenv").config();
 const Item = require("./Item");
+const Alliance = require("./Alliance");
+const Hero = require("./Hero");
 
 //connect to MLab MongoDB
 mongoose
@@ -28,8 +30,11 @@ const server = new ApolloServer({
   },
 
   context: async ({ event, context }) => {
-    //const token = event.headers["authorization"];
-    return { Item };
+    return { 
+      Item,
+      Alliance,
+      Hero
+    };
   },
   playground: true,
   introspection: true

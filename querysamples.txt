@@ -1,0 +1,5 @@
+mutation{
+  addHero(Name: "hero2", Alliances:["SSDFSDF","AAA"], Tier: "1", Tier_1_Health: "1", Tier_2_Health: "2", Tier_3_Health: "3", Mana: "1", Tier_1_DPS: "1", Tier_2_DPS: "2", Tier_3_DPS: "3", Tier_1_AD_MIN: "1", Tier_1_AD_Max: "1",Tier_2_AD_MIN: "1", Tier_2_AD_Max: "1",Tier_3_AD_MIN: "1", Tier_3_AD_Max: "1", Tier_1_Attack_Rate: "1", Tier_2_Attack_Rate: "2", Tier_3_Attack_Rate: "3", Move_Speed: "123", Attack_Range: "5", Tier_1_Magic_Resist: "0", Tier_2_Magic_Resist: "0", Tier_3_Magic_Resist: "0", Tier_1_Armor: "0", Tier_2_Armor: "0", Tier_3_Armor: "0", Tier_1_Health_Regen: "1", Tier_2_Health_Regen: "2", Tier_3_Health_Regen: "3", Hero_Image: "asdfasdf",  Abilities: {Ability_Image:"1", Ability:"Test", Description: "Desc"}, Lore_Text: "123123123"){
+    Name
+  }
+}

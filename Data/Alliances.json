@@ -1,0 +1,568 @@
+[
+    {
+        "name": "assassin",
+        "title": "Assassin",
+        "color": "rgb(153, 50, 204)",
+        "unit_names": [
+            "bounty_hunter",
+            "bloodseeker",
+            "morphling",
+            "queenofpain",
+            "phantom_assassin",
+            "slark",
+            "viper",
+            "sand_king",
+            "templar_assassin"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 3,
+                "description": "All Assassins gain a 15% chance to Critical Hit for 300% Damage"
+            },
+            {
+                "unit_count": 6,
+                "description": "All Assassins gain a 25% chance to Critical Hit for 400% Damage"
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "28%"
+    },
+    {
+        "name": "bloodbound",
+        "title": "Blood-Bound",
+        "color": "rgb(85, 107, 47)",
+        "unit_names": [
+            "ogre_magi",
+            "warlock"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "When a Blood-Bound unit dies, all other Blood-Bound units deal +125% Attack Damage for the rest of the battle"
+            }
+        ],
+        "alliance_max_bonus_count": 2,
+        "height": "45%"
+    },
+    {
+        "name": "brawny",
+        "title": "Brawny",
+        "color": "rgb(166, 27, 27)",
+        "unit_names": [
+            "axe",
+            "beastmaster",
+            "juggernaut",
+            "disruptor"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "All Brawny units gain +30 maximum HP for each kill they have."
+            },
+            {
+                "unit_count": 4,
+                "description": "All Brawny units gain +60 maximum HP for each kill they have."
+            }
+        ],
+        "alliance_max_bonus_count": 4,
+        "height": "45%"
+    },
+    {
+        "name": "deadeye",
+        "title": "Deadeye",
+        "color": "rgb(194, 147, 21)",
+        "unit_names": [
+            "bloodseeker",
+            "gyrocopter",
+            "sniper"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "All Deadeye units focus their attacks on the lowest-health enemy."
+            }
+        ],
+        "alliance_max_bonus_count": 2,
+        "height": "45%"
+    },
+    {
+        "name": "demon",
+        "title": "Demon",
+        "color": "rgb(222, 33, 33)",
+        "unit_names": [
+            "chaos_knight",
+            "queenofpain",
+            "shadow_fiend",
+            "terrorblade",
+            "doom"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 1,
+                "description": "All Demon units gain +50% Pure Damage. Active when you have only one type of Demon unit on the board"
+            }
+        ],
+        "alliance_max_bonus_count": 1,
+        "height": "90%"
+    },
+    {
+        "name": "demonhunter",
+        "title": "Demon Hunter",
+        "color": "rgb(139, 0, 139)",
+        "unit_names": [
+            "antimage",
+            "terrorblade"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 1,
+                "description": "Invalidate your opponent's Demon Alliance bonus."
+            },
+            {
+                "unit_count": 2,
+                "description": "Invalidate your opponent's Demon Alliance bonus. All Demon and all Demon Hunter units gain +50% Pure Damage."
+            }
+        ],
+        "alliance_max_bonus_count": 2,
+        "height": "45%"
+    },
+    {
+        "name": "dragon",
+        "title": "Dragon",
+        "color": "rgb(255, 81, 27)",
+        "unit_names": [
+            "puck",
+            "viper",
+            "dragon_knight"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "All Dragon units unlock an additional draconic ability."
+            }
+        ],
+        "alliance_max_bonus_count": 2,
+        "height": "45%"
+    },
+    {
+        "name": "druid",
+        "title": "Druid",
+        "color": "rgb(34, 139, 34)",
+        "unit_names": [
+            "enchantress",
+            "natures_prophet",
+            "treant_protector",
+            "lone_druid"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "At the beginning of combat, the lowest star ally Druid is upgraded a level."
+            },
+            {
+                "unit_count": 4,
+                "description": "At the beginning of combat, the 2 lowest star ally Druids are upgraded a level each."
+            }
+        ],
+        "alliance_max_bonus_count": 4,
+        "height": "45%"
+    },
+    {
+        "name": "elusive",
+        "title": "Elusive",
+        "color": "rgb(95, 151, 208)",
+        "unit_names": [
+            "antimage",
+            "natures_prophet",
+            "luna",
+            "puck",
+            "windranger",
+            "phantom_assassin",
+            "treant_protector",
+            "templar_assassin",
+            "mirana"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 3,
+                "description": "All Elusive units gain +25% Evasion."
+            },
+            {
+                "unit_count": 6,
+                "description": "All Elusive units gain +50% Evasion."
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "28%"
+    },
+    {
+        "name": "heartless",
+        "title": "Heartless",
+        "color": "rgb(79, 213, 101)",
+        "unit_names": [
+            "drow_ranger",
+            "pudge",
+            "abaddon",
+            "necrophos",
+            "lich"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "All Enemies lose 5 Armor"
+            },
+            {
+                "unit_count": 4,
+                "description": "All Enemies lose 10 Armor"
+            },
+            {
+                "unit_count": 6,
+                "description": "All Enemies lose 15 Armor"
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "45%"
+    },
+    {
+        "name": "human",
+        "title": "Human",
+        "color": "rgb(2, 200, 156)",
+        "unit_names": [
+            "bloodseeker",
+            "lina",
+            "crystal_maiden",
+            "lycan",
+            "omniknight",
+            "dragon_knight",
+            "keeper_of_the_light",
+            "kunkka"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "All Human units gain a 20% Chance to Silence target for 4 seconds when attacking"
+            },
+            {
+                "unit_count": 4,
+                "description": "All Human units gain a 44% Chance to Silence target for 4 seconds when attacking"
+            },
+            {
+                "unit_count": 6,
+                "description": "All Human units gain a 66% Chance to Silence target for 4 seconds when attacking"
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "45%"
+    },
+    {
+        "name": "hunter",
+        "title": "Hunter",
+        "color": "rgb(255, 118, 82)",
+        "unit_names": [
+            "drow_ranger",
+            "beastmaster",
+            "windranger",
+            "lycan",
+            "sniper",
+            "mirana",
+            "medusa"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 3,
+                "description": "All Hunters have a 25% chance of quickly performing 2 attacks."
+            },
+            {
+                "unit_count": 6,
+                "description": "All Hunters have a 40% chance of quickly performing 2 attacks."
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "28%"
+    },
+    {
+        "name": "inventor",
+        "title": "Inventor",
+        "color": "rgb(251, 142, 20)",
+        "unit_names": [
+            "timbersaw",
+            "clockwerk",
+            "tinker",
+            "gyrocopter",
+            "techies"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "Allied Inventors explode on death dealing 15% of their Max Health to all enemies 1 cell away."
+            },
+            {
+                "unit_count": 4,
+                "description": "Allied Inventors explode on death dealing 30% of their Max Health to all enemies 1 cell away."
+            }
+        ],
+        "alliance_max_bonus_count": 4,
+        "height": "45%"
+    },
+    {
+        "name": "knight",
+        "title": "Knight",
+        "color": "rgb(255, 227, 39)",
+        "unit_names": [
+            "batrider",
+            "chaos_knight",
+            "luna",
+            "abaddon",
+            "omniknight",
+            "dragon_knight"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "Knight units take 15% less physical and magic damage and an additional 15% less when standing 1 cell away from another Knight."
+            },
+            {
+                "unit_count": 4,
+                "description": "Knight units take 20% less physical and magic damage and an additional 20% less when standing 1 cell away from another Knight."
+            },
+            {
+                "unit_count": 6,
+                "description": "Knight units take 25% less physical and magic damage and an additional 25% less when standing 1 cell away from another Knight."
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "45%"
+    },
+    {
+        "name": "mage",
+        "title": "Mage",
+        "color": "rgb(88, 221, 233)",
+        "unit_names": [
+            "ogre_magi",
+            "razor",
+            "lina",
+            "puck",
+            "crystal_maiden",
+            "keeper_of_the_light",
+            "lich"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 3,
+                "description": "Enemies take 40% more Magic damage"
+            },
+            {
+                "unit_count": 6,
+                "description": "Enemies take 100% more Magic damage"
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "28%"
+    },
+    {
+        "name": "primordial",
+        "title": "Primordial",
+        "color": "rgb(0, 128, 128)",
+        "unit_names": [
+            "razor",
+            "tiny",
+            "morphling",
+            "arc_warden",
+            "enigma"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 3,
+                "description": "Allied Primordial units spawn a rank 1 Eidolon on death. Eidolons are ranged Primordial units that don't spawn Eidolons."
+            },
+            {
+                "unit_count": 6,
+                "description": "Allied Primordial units spawn a rank 2 Eidolon on death. Eidolons are ranged Primordial units that don't spawn Eidolons."
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "28%"
+    },
+    {
+        "name": "savage",
+        "title": "savage",
+        "color": "rgb(178, 65, 26)",
+        "unit_names": [
+            "enchantress",
+            "tusk",
+            "venomancer",
+            "lycan",
+            "lone_druid",
+            "sand_king"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "Allied Savage units apply a stackable 5 damage/s bleed on attack for 3 seconds. Duration refreshes each attack."
+            },
+            {
+                "unit_count": 4,
+                "description": "Allied Savage units apply a stackable 10 damage/s bleed on attack for 3 seconds. Duration refreshes each attack."
+            },
+            {
+                "unit_count": 6,
+                "description": "Allied Savage units apply a stackable 15 damage/s bleed on attack for 3 seconds. Duration refreshes each attack."
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "45%"
+    },
+    {
+        "name": "scaled",
+        "title": "scaled",
+        "color": "rgb(72, 63, 162)",
+        "unit_names": [
+            "slardar",
+            "slark",
+            "tidehunter",
+            "medusa"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "Allies gain +30% Magic Resistance"
+            },
+            {
+                "unit_count": 4,
+                "description": "Allies gain +50% Magic Resistance"
+            }
+        ],
+        "alliance_max_bonus_count": 4,
+        "height": "45%"
+    },
+    {
+        "name": "scrappy",
+        "title": "scrappy",
+        "color": "rgb(184, 199, 44)",
+        "unit_names": [
+            "bounty_hunter",
+            "timbersaw",
+            "clockwerk",
+            "sniper",
+            "tinker",
+            "alchemist",
+            "techies"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "A Random Scrappy is granted +9 Armor and +8 HP Regeneration. Armor and HP are doubled whenever you have fewer units alive than your opponent does."
+            },
+            {
+                "unit_count": 4,
+                "description": "All Scrappy units gain +9 Armor and +8 HP Regeneration. Armor and HP are doubled whenever you have fewer units alive than your opponent does"
+            },
+            {
+                "unit_count": 6,
+                "description": "Allies gain +9 Armor and +8 HP Regeneration. Armor and HP are doubled whenever you have fewer units alive than your opponent does"
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "45%"
+    },
+    {
+        "name": "shaman",
+        "title": "shaman",
+        "color": "rgb(52, 159, 100)",
+        "unit_names": [
+            "shadow_shaman",
+            "arc_warden",
+            "enigma"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "Units attacking a Shaman have a 17% chance of being turned into a chicken and hop 4 cells in a random direction."
+            }
+        ],
+        "alliance_max_bonus_count": 2,
+        "height": "45%"
+    },
+    {
+        "name": "troll",
+        "title": "Troll",
+        "color": "rgb(158, 110, 74)",
+        "unit_names": [
+            "batrider",
+            "shadow_shaman",
+            "witch_doctor",
+            "troll_warlord"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "All Troll units gain +35 Attack Speed and other Allies gain +10 Attack Speed"
+            },
+            {
+                "unit_count": 4,
+                "description": "All Troll units gain +65 Attack Speed and other Allies gain +30 Attack Speed"
+            }
+        ],
+        "alliance_max_bonus_count": 4,
+        "height": "45%"
+    },
+    {
+        "name": "warlock",
+        "title": "Warlock",
+        "color": "rgb(228, 110, 213)",
+        "unit_names": [
+            "venomancer",
+            "warlock",
+            "witch_doctor",
+            "shadow_fiend",
+            "alchemist",
+            "necrophos",
+            "disruptor"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 2,
+                "description": "Whenever a Warlock casts a spell, they form a link with the Ally who has the lowest health for 2 seconds. When either linked hero deals damage, both units are healed 50% of the damage dealt."
+            },
+            {
+                "unit_count": 4,
+                "description": "Whenever a Warlock casts a spell, they form a link with the Ally who has the lowest health for 2 seconds. When either linked hero deals damage, both units are healed 80% of the damage dealt."
+            },
+            {
+                "unit_count": 6,
+                "description": "Whenever a Warlock casts a spell, they form a link with the Ally who has the lowest health for 2 seconds. When either linked hero deals damage, both units are healed 130% of the damage dealt."
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "45%"
+    },
+    {
+        "name": "warrior",
+        "title": "Warrior",
+        "color": "rgb(28, 103, 180)",
+        "unit_names": [
+            "axe",
+            "tiny",
+            "tusk",
+            "slardar",
+            "pudge",
+            "juggernaut",
+            "doom",
+            "kunkka",
+            "tidehunter",
+            "troll_warlord"
+        ],
+        "alliance_bonus": [
+            {
+                "unit_count": 3,
+                "description": "All Warriors gain +10 Armor"
+            },
+            {
+                "unit_count": 6,
+                "description": "All Warriors gain +20 Armor"
+            }
+        ],
+        "alliance_max_bonus_count": 6,
+        "height": "28%"
+    }
+]
