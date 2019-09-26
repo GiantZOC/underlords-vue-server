@@ -13,10 +13,11 @@ const AllianceSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    unit_names: {
-        type: [String],
-        required: true
-    },
+    heroes: [{
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'Hero'
+    }],
     alliance_bonus: [{
         unit_count: {
             type: Number,

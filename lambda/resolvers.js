@@ -12,23 +12,31 @@ module.exports = {
             return item;
         },
         getAlliances: async(_, args, {Alliance}) => {
-            const alliances = await Alliance.find({});
+            const alliances = await Alliance.find({}).populate('heroes');;
             return alliances;
         },
         getAlliance: async (_, {allianceId}, {Alliance}) => {
-            const alliance = await Alliance.findOne({_id: allianceId});
+            const alliance = await Alliance.findOne({_id: allianceId}).populate('heroes');;
             return alliance;
         },
         getAllianceByName: async (_, {allianceName}, {Alliance}) => {
-            const alliance = await Alliance.findOne({name: allianceName});
+            const alliance = await Alliance.findOne({name: allianceName}).populate('heroes');
+            console.log(alliance)
             return alliance;
         },
         getHeroes: async(_, args, {Hero}) => {
-            const heroes = await Hero.find({});
+            const heroes = await Hero.find({}).populate('Alliances');
+            console.log(heroes);
             return heroes;
         },
         getHero: async (_, {heroId}, {Hero}) => {
-            const hero = await Hero.findOne({_id: heroId});
+            const hero = await Hero.findOne({_id: heroId}).populate('Alliances');
+            console.log(hero);
+            return hero;
+        },
+        getHeroByName: async (_, {heroName}, {Hero}) => {
+            const hero = await Hero.findOne({Name: heroName}).populate('Alliances');
+            console.log(hero);
             return hero;
         },
     },
@@ -55,7 +63,7 @@ module.exports = {
             }).save();
             return newAlliance;
         },
-        addHero: async (_, {Name, Alliances, Tier, Tier_1_Health, Tier_2_Health, Tier_3_Health, Mana, Tier_1_DPS, Tier_2_DPS, Tier_3_DPS, Tier_1_AD_MIN, Tier_1_AD_Max, Tier_2_AD_MIN, Tier_2_AD_Max, Tier_3_AD_MIN, Tier_3_AD_Max, Tier_1_Attack_Rate, Tier_2_Attack_Rate,Tier_3_Attack_Rate,Move_Speed,Attack_Range,Tier_1_Magic_Resist,Tier_2_Magic_Resist,Tier_3_Magic_Resist,Tier_1_Armor,Tier_2_Armor,Tier_3_Armor,Tier_1_Health_Regen,Tier_2_Health_Regen,Tier_3_Health_Regen, Hero_Image, Abilities, Lore_Text, Ace_Ability, Ace_Description}, {Hero}) =>{
+        addHero: async (_, {Name, Tier, Tier_1_Health, Tier_2_Health, Tier_3_Health, Mana, Tier_1_DPS, Tier_2_DPS, Tier_3_DPS, Tier_1_AD_MIN, Tier_1_AD_Max, Tier_2_AD_MIN, Tier_2_AD_Max, Tier_3_AD_MIN, Tier_3_AD_Max, Tier_1_Attack_Rate, Tier_2_Attack_Rate,Tier_3_Attack_Rate,Move_Speed,Attack_Range,Tier_1_Magic_Resist,Tier_2_Magic_Resist,Tier_3_Magic_Resist,Tier_1_Armor,Tier_2_Armor,Tier_3_Armor,Tier_1_Health_Regen,Tier_2_Health_Regen,Tier_3_Health_Regen, Filename, Hero_Image, Abilities, Lore_Text, Ace_Ability, Ace_Description}, {Hero}) =>{
             const newHero = await new Hero({
                 Name,
                 Alliances,
@@ -87,6 +95,7 @@ module.exports = {
                 Tier_1_Health_Regen,
                 Tier_2_Health_Regen,
                 Tier_3_Health_Regen,
+                Filename,
                 Hero_Image,
                 Abilities,
                 Lore_Text,

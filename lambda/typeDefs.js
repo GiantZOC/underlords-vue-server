@@ -27,7 +27,7 @@ const typeDefs = gql`
     name: String!
     title: String!
     color: String!
-    unit_names: [String]!
+    heroes: [Hero]!
     alliance_bonus: [AllianceBonus]!
     alliance_max_bonus_count: Int!
     height: String!
@@ -48,7 +48,7 @@ const typeDefs = gql`
   type Hero {
     _id: ID
     Name: String!
-    Alliances: [String]!
+    Alliances: [Alliance]!
     Tier: String!
     Tier_1_Health: String!
     Tier_2_Health: String!
@@ -77,6 +77,7 @@ const typeDefs = gql`
     Tier_1_Health_Regen: String!
     Tier_2_Health_Regen: String!
     Tier_3_Health_Regen: String!
+    Filename: String!
     Hero_Image: String!
     Abilities: [Ability]
     Lore_Text: String!
@@ -91,6 +92,7 @@ const typeDefs = gql`
     getAllianceByName(allianceName: String): Alliance
     getAlliances: [Alliance]
     getHero(heroId: ID): Hero
+    getHeroByName(heroName: String): Hero
     getHeroes: [Hero]
   }
 
@@ -114,7 +116,6 @@ const typeDefs = gql`
     ): Alliance
     addHero(
       Name: String!
-      Alliances: [String]!
       Tier: String!
       Tier_1_Health: String!
       Tier_2_Health: String!
@@ -143,6 +144,7 @@ const typeDefs = gql`
       Tier_1_Health_Regen: String!
       Tier_2_Health_Regen: String!
       Tier_3_Health_Regen: String!
+      Filename: String!
       Hero_Image: String!
       Abilities: [AbilityInput]
       Lore_Text: String!

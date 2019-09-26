@@ -5,10 +5,11 @@ const HeroSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    Alliances: {
-        type: [String],
-        required: true
-    },
+    Alliances:[{
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'Alliance'
+    }],
     Tier:{
         type: String,
         required: true
@@ -118,6 +119,10 @@ const HeroSchema = new mongoose.Schema({
         required: true
     },
     Tier_3_Health_Regen: {
+        type: String,
+        required: true
+    },
+    Filename: {
         type: String,
         required: true
     },
