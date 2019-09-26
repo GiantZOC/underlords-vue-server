@@ -9,6 +9,10 @@ const HeroSchema = new mongoose.Schema({
         type: [String],
         required: true
     },
+    Tier:{
+        type: String,
+        required: true
+    },
     Tier_1_Health: {
         type: String,
         required: true
@@ -139,6 +143,14 @@ const HeroSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    Ace_Ability: {
+        type: String,
+        required: false
+    },
+    Ace_Description: {
+        type: String,
+        required: false
+    }
 });
 
 

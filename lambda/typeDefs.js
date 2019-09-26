@@ -46,6 +46,7 @@ const typeDefs = gql`
   }
 
   type Hero {
+    _id: ID
     Name: String!
     Alliances: [String]!
     Tier: String!
@@ -79,12 +80,15 @@ const typeDefs = gql`
     Hero_Image: String!
     Abilities: [Ability]
     Lore_Text: String!
+    Ace_Ability: String
+    Ace_Description: String
   }
 
   type Query {
     getItem(itemId: ID): Item
     getItems: [Item]
     getAlliance(allianceId: ID): Alliance
+    getAllianceByName(allianceName: String): Alliance
     getAlliances: [Alliance]
     getHero(heroId: ID): Hero
     getHeroes: [Hero]
@@ -142,6 +146,8 @@ const typeDefs = gql`
       Hero_Image: String!
       Abilities: [AbilityInput]
       Lore_Text: String!
+      Ace_Ability: String
+      Ace_Description: String
     ): Hero
   }
 `;
