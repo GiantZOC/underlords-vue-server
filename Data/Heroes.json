@@ -83,7 +83,7 @@
     },
     {
         "Name": "Anti-Mage",
-        "Alliances": ["Evasive", "Demon Hunter"],
+        "Alliances": ["Elusive", "Demon Hunter"],
         "Tier": "1",
         "Tier_1_Health": "500",
         "Tier_2_Health": "1000",
@@ -288,7 +288,7 @@
     },
     {
         "Name": "Bloodseeker",
-        "Alliances": ["Human", "Hunter", "Deadshot"],
+        "Alliances": ["Human", "Hunter", "Deadeye"],
         "Tier": "1",
         "Tier_1_Health": "500",
         "Tier_2_Health": "1000",
@@ -530,7 +530,7 @@
                 "Description": "Disruptor creates a damaging static storm that silences and blinds (25%) all enemy units up to 2 cells away from the center for [3/4/5] seconds.  The damage starts off weak but ramps up, doing a total of [115/250/425] over the duration of the storm. "
             }
         ],
-        "Lore_Text": "undefined",
+        "Lore_Text": "",
         "Ace_Ability": "Ace of Warlocks",
         "Ace_Description": "The effect of the Warlocks is now applied to 1 target per Alliance level.  +15% chance of finding if you have at least one level of the Warlock Alliance completed."
     },
@@ -623,7 +623,7 @@
     },
     {
         "Name": "Drow Ranger",
-        "Alliances": ["Heartless", "Ranger"],
+        "Alliances": ["Heartless", "Hunter"],
         "Tier": "1",
         "Tier_1_Health": "400",
         "Tier_2_Health": "800",
@@ -742,13 +742,13 @@
                 "Description": "Enigma steeps an area in dark resonance, dealing [5/7/9]% of an enemy's max health for 10 seconds to all enemy units up to [1/2/3] cells away. "
             }
         ],
-        "Lore_Text": "undefined",
+        "Lore_Text": "",
         "Ace_Ability": "Ace of Shamans",
         "Ace_Description": "Enemies affected by Hexes, Silences or Stuns will not generate mana while attacked.  +15% chance of finding if you have at least one level of the Shaman Alliance completed."
     },
     {
         "Name": "Gyrocopter",
-        "Alliances": ["Deadshot", "Inventor"],
+        "Alliances": ["Deadeye", "Inventor"],
         "Tier": "5",
         "Tier_1_Health": "900",
         "Tier_2_Health": "1800",
@@ -785,7 +785,7 @@
                 "Description": "Gyrocopter launches a missile strike, hitting all enemies up to 3 cells away from point of impact.  Two missiles arrive in succession, the first dealing [200/300/400] damage and 30% slow for 2 seconds; the final one deals [200/300/400] damage and 60% slow for 4 seconds. "
             }
         ],
-        "Lore_Text": "undefined",
+        "Lore_Text": "",
         "Ace_Ability": "Ace of Deadeyes",
         "Ace_Description": "Grants Deadeye units True Strike. Units with True Strike cannot miss.  +15% chance of finding if you have at least one level of the Deadeye Alliance completed. "
     },
@@ -951,7 +951,7 @@
                 "Description": "Lich releases an orb of frost that bounces between nearby enemy units up to [6/9/12] times, slowing their attack and movement speed by -65% for 2.5 seconds and dealing [200/300/400] damage each time it hits. "
             }
         ],
-        "Lore_Text": "undefined",
+        "Lore_Text": "",
         "Ace_Ability": "Ace of Mages",
         "Ace_Description": "Your army's mana generation from attacks is increased 10% per Mage Alliance level.  +15% chance of finding if you have at least one level of the Mage Alliance completed."
     },
@@ -1039,7 +1039,7 @@
     },
     {
         "Name": "Luna",
-        "Alliances": ["Evasive", "Knight"],
+        "Alliances": ["Elusive", "Knight"],
         "Tier": "2",
         "Tier_1_Health": "500",
         "Tier_2_Health": "1000",
@@ -1163,13 +1163,13 @@
                 "Description": "Passive: Medusa magically shoots up to [2,3,4] extra arrows, hitting additional targets within 1 cell of her primary target. The additional arrows deal -20% of her primary arrow's damage."
             }
         ],
-        "Lore_Text": "undefined",
+        "Lore_Text": "",
         "Ace_Ability": "Ace of Scaled",
         "Ace_Description": "Grants Scaled units Retaliate. When a unit with Retaliate is attacked, they apply a 25 dmg/sec per Alliance level debuff to their attacker.  +15% chance of finding if you have at least one level of the Scaled Alliance completed."
     },
     {
         "Name": "Mirana",
-        "Alliances": ["Evasive", "Hunter"],
+        "Alliances": ["Elusive", "Hunter"],
         "Tier": "4",
         "Tier_1_Health": "750",
         "Tier_2_Health": "1500",
@@ -1251,7 +1251,7 @@
     },
     {
         "Name": "Nature's Prophet",
-        "Alliances": ["Evasive", "Druid"],
+        "Alliances": ["Elusive", "Druid"],
         "Tier": "2",
         "Tier_1_Health": "500",
         "Tier_2_Health": "1000",
@@ -1415,7 +1415,7 @@
     },
     {
         "Name": "Phantom Assassin",
-        "Alliances": ["Evasive", "Assassin"],
+        "Alliances": ["Elusive", "Assassin"],
         "Tier": "3",
         "Tier_1_Health": "550",
         "Tier_2_Health": "1100",
@@ -1456,7 +1456,7 @@
     },
     {
         "Name": "Puck",
-        "Alliances": ["Evasive", "Dragon", "Mage"],
+        "Alliances": ["Elusive", "Dragon", "Mage"],
         "Tier": "2",
         "Tier_1_Health": "450",
         "Tier_2_Health": "900",
@@ -1840,7 +1840,7 @@
     },
     {
         "Name": "Sniper",
-        "Alliances": ["Scrappy", "Deadshot", "Hunter"],
+        "Alliances": ["Scrappy", "Deadeye", "Hunter"],
         "Tier": "3",
         "Tier_1_Health": "450",
         "Tier_2_Health": "900",
@@ -1918,11 +1918,11 @@
                 "Description": "The gang plants an explosive that detonates after 3 seconds and deals [700/1100/1500] damage to targets [3/3/4] cells away.  Does half-damage to enemies half the max distance away."
             }
         ],
-        "Lore_Text": "undefined"
+        "Lore_Text": ""
     },
     {
         "Name": "Templar Assassin",
-        "Alliances": ["Evasive", "Assassin"],
+        "Alliances": ["Elusive", "Assassin"],
         "Tier": "4",
         "Tier_1_Health": "750",
         "Tier_2_Health": "1500",
@@ -2173,7 +2173,7 @@
     },
     {
         "Name": "Treant Protector",
-        "Alliances": ["Evasive", "Druid"],
+        "Alliances": ["Elusive", "Druid"],
         "Tier": "3",
         "Tier_1_Health": "750",
         "Tier_2_Health": "1500",
@@ -2251,7 +2251,7 @@
                 "Description": "Passive: Troll Warlord rains blow after blow gaining [15/20/25]% bonus increased attack speed per stack.  If Troll changes targets, the stack drops to zero.  This effect can only stack up to [6/9/12] times."
             }
         ],
-        "Lore_Text": "undefined",
+        "Lore_Text": "",
         "Ace_Ability": "Ace of Trolls",
         "Ace_Description": "Grants your units Mini-Bash: While attacking, your team has a 5% chance per Troll Alliance level of stunning their target for 0.25 seconds.  +15% chance of finding if you have at least one level of the Troll Alliance completed."
     },
@@ -2426,7 +2426,7 @@
     },
     {
         "Name": "Windranger",
-        "Alliances": ["Evasive", "Hunter"],
+        "Alliances": ["Elusive", "Hunter"],
         "Tier": "2",
         "Tier_1_Health": "550",
         "Tier_2_Health": "1100",

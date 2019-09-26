@@ -51,15 +51,6 @@
             "flavortext": "It isn't about turning the tide, it's about weathering the storm. - Zenok, White Spire Fence"
         }
         {
-            "name": 'Cloak',
-            "img": '/images/items/cloak_psd.png',
-      description: '+15% Magic Resistance.',
-            "tier": 1,
-            "type": 'Defensive',
-            "flavortext":
-        'Be careful out there, a storm is coming... - Zenok, White Spire Fence'
-        }
-        {
             "name": 'Blink Dagger',
             "img": '/images/items/blink_dagger_psd.png',
       description:
@@ -391,32 +382,6 @@
             "flavortext": "Don't tell anyone, but you're my favorite criminal mastermind. - Zenok, White Spire Fence"
         }
         {
-            "name": 'Vicious Intent',
-            "img": '/images/items/extra_damage_unit_psd.png',
-      description:
-        'Each of your surviving units, including summons, deals 1 additional damage to opponents if they lose to you.',
-            "tier": 3,
-            "type": 'Global',
-            "flavortext": "Sometimes it's not just about winning, you need to send a message. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Silver Lining',
-            "img": '/images/items/gold_on_defeat_psd.png',
-      description:
-        'Get 1 charge when you win a fight. When you lose a fight, if charges remain, get 1 gold and lose 1 charge. Starts with 1 charge.',
-            "tier": 2,
-            "type": 'Global',
-            "flavortext": 'People love a comeback story. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Recruiter',
-            "img": '/images/items/free_first_reroll_psd.png',
-      description: 'The first reroll each round is free.',
-            "tier": 5,
-            "type": 'Global',
-            "flavortext": "Don't settle for a crew you don't stand behind. - Zenok, White Spire Fence"
-        }
-        {
             "name": 'Fall From Grace',
             "img": '/images/items/humans_undead_psd.png',
       description:
@@ -463,14 +428,6 @@
             "type": 'Global',
             "flavortext":
         'Sometimes all you need is a second chance. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Recruiter',
-            "img": '/images/items/free_first_reroll_psd.png',
-      description: 'Rerolls cost 1 gold less.',
-            "tier": 4,
-            "type": 'Global',
-            "flavortext": "Don't settle for a crew you don't stand behind. - Zenok, White Spire Fence"
         }
         {
             "name": 'Dawning of Ristul',
