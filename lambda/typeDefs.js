@@ -34,55 +34,55 @@ const typeDefs = gql`
   }
 
   input AbilityInput {
-    Ability: String!
-    Ability_Image: String!
-    Description: String!
+    ability: String!
+    ability_image: String!
+    description: String!
   }
 
   type Ability {
-    Ability: String!
-    Ability_Image: String!
-    Description: String!
+    ability: String!
+    ability_image: String!
+    description: String!
   }
 
   type Hero {
     _id: ID
-    Name: String!
-    Alliances: [Alliance]!
-    Tier: String!
-    Tier_1_Health: String!
-    Tier_2_Health: String!
-    Tier_3_Health: String!
-    Mana: String!
-    Tier_1_DPS: String!
-    Tier_2_DPS: String!
-    Tier_3_DPS: String!
-    Tier_1_AD_MIN: String!
-    Tier_1_AD_Max: String!
-    Tier_2_AD_MIN: String!
-    Tier_2_AD_Max: String!
-    Tier_3_AD_MIN: String!
-    Tier_3_AD_Max: String!
-    Tier_1_Attack_Rate: String!
-    Tier_2_Attack_Rate: String!
-    Tier_3_Attack_Rate: String!
-    Move_Speed: String!
-    Attack_Range: String!
-    Tier_1_Magic_Resist: String!
-    Tier_2_Magic_Resist: String!
-    Tier_3_Magic_Resist: String!
-    Tier_1_Armor: String!
-    Tier_2_Armor: String!
-    Tier_3_Armor: String!
-    Tier_1_Health_Regen: String!
-    Tier_2_Health_Regen: String!
-    Tier_3_Health_Regen: String!
-    Filename: String!
-    Hero_Image: String!
-    Abilities: [Ability]
-    Lore_Text: String!
-    Ace_Ability: String
-    Ace_Description: String
+    name: String!
+    alliances: [Alliance]!
+    tier: String!
+    tier_1_health: String!
+    tier_2_health: String!
+    tier_3_health: String!
+    mana: String!
+    tier_1_dps: String!
+    tier_2_dps: String!
+    tier_3_dps: String!
+    tier_1_ad_min: String!
+    tier_1_ad_max: String!
+    tier_2_ad_min: String!
+    tier_2_ad_max: String!
+    tier_3_ad_min: String!
+    tier_3_ad_max: String!
+    tier_1_attack_rate: String!
+    tier_2_attack_rate: String!
+    tier_3_attack_rate: String!
+    move_speed: String!
+    attack_range: String!
+    tier_1_magic_resist: String!
+    tier_2_magic_resist: String!
+    tier_3_magic_resist: String!
+    tier_1_armor: String!
+    tier_2_armor: String!
+    tier_3_armor: String!
+    tier_1_health_regen: String!
+    tier_2_health_regen: String!
+    tier_3_health_regen: String!
+    filename: String!
+    hero_image: String!
+    abilities: [Ability]
+    lore_text: String!
+    ace_ability: String
+    ace_description: String
   }
 
   type Query {
@@ -115,41 +115,41 @@ const typeDefs = gql`
       height: String!
     ): Alliance
     addHero(
-      Name: String!
-      Tier: String!
-      Tier_1_Health: String!
-      Tier_2_Health: String!
-      Tier_3_Health: String!
-      Mana: String!
-      Tier_1_DPS: String!
-      Tier_2_DPS: String!
-      Tier_3_DPS: String!
-      Tier_1_AD_MIN: String!
-      Tier_1_AD_Max: String!
-      Tier_2_AD_MIN: String!
-      Tier_2_AD_Max: String!
-      Tier_3_AD_MIN: String!
-      Tier_3_AD_Max: String!
-      Tier_1_Attack_Rate: String!
-      Tier_2_Attack_Rate: String!
-      Tier_3_Attack_Rate: String!
-      Move_Speed: String!
-      Attack_Range: String!
-      Tier_1_Magic_Resist: String!
-      Tier_2_Magic_Resist: String!
-      Tier_3_Magic_Resist: String!
-      Tier_1_Armor: String!
-      Tier_2_Armor: String!
-      Tier_3_Armor: String!
-      Tier_1_Health_Regen: String!
-      Tier_2_Health_Regen: String!
-      Tier_3_Health_Regen: String!
-      Filename: String!
-      Hero_Image: String!
-      Abilities: [AbilityInput]
-      Lore_Text: String!
-      Ace_Ability: String
-      Ace_Description: String
+      name: String!
+      tier: String!
+      tier_1_health: String!
+      tier_2_health: String!
+      tier_3_health: String!
+      mana: String!
+      tier_1_dps: String!
+      tier_2_dps: String!
+      tier_3_dps: String!
+      tier_1_ad_min: String!
+      tier_1_ad_max: String!
+      tier_2_ad_min: String!
+      tier_2_ad_max: String!
+      tier_3_ad_min: String!
+      tier_3_ad_max: String!
+      tier_1_attack_rate: String!
+      tier_2_attack_rate: String!
+      tier_3_attack_rate: String!
+      move_speed: String!
+      attack_range: String!
+      tier_1_magic_resist: String!
+      tier_2_magic_resist: String!
+      tier_3_magic_resist: String!
+      tier_1_armor: String!
+      tier_2_armor: String!
+      tier_3_armor: String!
+      tier_1_health_regen: String!
+      tier_2_health_regen: String!
+      tier_3_health_regen: String!
+      filename: String!
+      hero_image: String!
+      abilities: [AbilityInput]
+      lore_text: String!
+      ace_ability: String
+      ace_description: String
     ): Hero
   }
 `;

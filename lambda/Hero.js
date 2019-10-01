@@ -1,158 +1,158 @@
 const mongoose = require('mongoose');
 
 const HeroSchema = new mongoose.Schema({
-    Name: {
+    name: {
         type:String,
         required:true
     },
-    Alliances:[{
+    alliances:[{
         type: mongoose.Schema.Types.ObjectId,
         required: true,
         ref: 'Alliance'
     }],
-    Tier:{
+    tier:{
         type: String,
         required: true
     },
-    Tier_1_Health: {
+    tier_1_health: {
         type: String,
         required: true
     },
-    Tier_2_Health: {
+    tier_2_health: {
         type: String,
         required: true
     },
-    Tier_3_Health: {
+    tier_3_health: {
         type: String,
         required: true
     },
-    Mana: {
+    mana: {
         type: String,
         required: true
     },
-    Tier_1_DPS: {
+    tier_1_dps: {
         type: String,
         required: true
     },
-    Tier_2_DPS: {
+    tier_2_dps: {
         type: String,
         required: true
     },
-    Tier_3_DPS: {
+    tier_3_dps: {
         type: String,
         required: true
     },
-    Tier_1_AD_MIN: {
+    tier_1_ad_min: {
         type: String,
         required: true
     },
-    Tier_1_AD_Max: {
+    tier_1_ad_max: {
         type: String,
         required: true
     },
-    Tier_2_AD_MIN: {
+    tier_2_ad_min: {
         type: String,
         required: true
     },
-    Tier_2_AD_Max: {
+    tier_2_ad_max: {
         type: String,
         required: true
     },
-    Tier_3_AD_MIN: {
+    tier_3_ad_min: {
         type: String,
         required: true
     },
-    Tier_3_AD_Max: {
+    tier_3_ad_max: {
         type: String,
         required: true
     },
-    Tier_1_Attack_Rate: {
+    tier_1_attack_rate: {
         type: String,
         required: true
     },
-    Tier_2_Attack_Rate: {
+    tier_2_attack_rate: {
         type: String,
         required: true
     },
-    Tier_3_Attack_Rate: {
+    tier_3_attack_rate: {
         type: String,
         required: true
     },
-    Move_Speed: {
+    move_speed: {
         type: String,
         required: true
     },
-    Attack_Range: {
+    attack_range: {
         type: String,
         required: true
     },
-    Tier_1_Magic_Resist: {
+    tier_1_magic_resist: {
         type: String,
         required: true
     },
-    Tier_2_Magic_Resist: {
+    tier_2_magic_resist: {
         type: String,
         required: true
     },
-    Tier_3_Magic_Resist: {
+    tier_3_magic_resist: {
         type: String,
         required: true
     },
-    Tier_1_Armor: {
+    tier_1_armor: {
         type: String,
         required: true
     },
-    Tier_2_Armor: {
+    tier_2_armor: {
         type: String,
         required: true
     },
-    Tier_3_Armor: {
+    tier_3_armor: {
         type: String,
         required: true
     },
-    Tier_1_Health_Regen: {
+    tier_1_health_regen: {
         type: String,
         required: true
     },
-    Tier_2_Health_Regen: {
+    tier_2_health_regen: {
         type: String,
         required: true
     },
-    Tier_3_Health_Regen: {
+    tier_3_health_regen: {
         type: String,
         required: true
     },
-    Filename: {
+    filename: {
         type: String,
         required: true
     },
-    Hero_Image: {
+    hero_image: {
         type: String,
         required: true
     },
-    Abilities: [{
-        Ability_Image: {
+    abilities: [{
+        ability_image: {
             type: String,
             required: true
         },
-        Ability: {
+        ability: {
             type: String,
             required: true
         },
-        Description: {
+        description: {
             type: String,
             required: true
         }
     }],
-    Lore_Text: {
+    lore_text: {
         type: String,
         required: true
     },
-    Ace_Ability: {
+    ace_ability: {
         type: String,
         required: false
     },
-    Ace_Description: {
+    ace_description: {
         type: String,
         required: false
     }
