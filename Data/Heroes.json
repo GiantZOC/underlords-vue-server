@@ -2393,7 +2393,7 @@
             {
                 "ability_image": "/images/spellicons/templar_assassin_refraction_png.png",
                 "ability": "Refraction",
-                "description": "Templar Assassin becomes 5d8d08003c19aab293149c50, avoiding damage and gaining [40/60/80]% bonus to her damage.  The damage and avoidance effects are separate, and have [4/6/8] instances each."
+                "description": "Templar Assassin becomes elusive, avoiding damage and gaining [40/60/80]% bonus to her damage.  The damage and avoidance effects are separate, and have [4/6/8] instances each."
             },
             {
                 "ability_image": "/images/spellicons/templar_assassin_meld_png.png",
