@@ -1504,7 +1504,7 @@
         "hero_image": "/images/heroes/natures_prophet_full.png",
         "abilities": [
             {
-                "ability_image": "/images/spellicons/natures_prophet_summon_tree_png.png",
+                "ability_image": "/images/spellicons/natures_prophet_wrath_of_nature_png.png",
                 "ability": "Wrath of Nature",
                 "description": "Nature's Prophet zaps a target for [250, 275, 300] damage. This bounces [3, 4, 5] times across enemies in the board, increasing the damage by [10, 13, 15]% per bounce.",
                 "mana_cost": 100,
@@ -2734,7 +2734,7 @@
         "hero_image": "/images/heroes/venomancer_full.png",
         "abilities": [
             {
-                "ability_image": "/images/spellicons/venomancer_plague_ward_png.png",
+                "ability_image": "/images/spellicons/venomancer_venomous_gale_png.png",
                 "ability": "Venomous Gale",
                 "description": "Launches a ball of venom in a line, poisoning enemy units so that they take [25, 50, 100] damage as well as [10, 20, 40] damage every 3s for a duration of 15s. Affected units lose 50% movement speed and 25 Attack Rate.",
                 "mana_cost": 100,
