@@ -207,9 +207,9 @@
             "5d8d08003c19aab293149c61"
         ],
         "tier": "1",
-        "tier_1_health": "700",
-        "tier_2_health": "1400",
-        "tier_3_health": "2800",
+        "tier_1_health": "805",
+        "tier_2_health": "1610",
+        "tier_3_health": "3220",
         "mana": "50",
         "tier_1_dps": "35",
         "tier_2_dps": "70",
@@ -229,8 +229,8 @@
         "tier_2_magic_resist": "0",
         "tier_3_magic_resist": "0",
         "tier_1_armor": "5",
-        "tier_2_armor": "5",
-        "tier_3_armor": "5",
+        "tier_2_armor": "10",
+        "tier_3_armor": "15",
         "tier_1_health_regen": "0",
         "tier_2_health_regen": "0",
         "tier_3_health_regen": "0",
@@ -746,15 +746,15 @@
         "tier_1_dps": "37",
         "tier_2_dps": "73",
         "tier_3_dps": "146",
-        "tier_1_ad_min": "45",
-        "tier_1_ad_max": "50",
-        "tier_2_ad_min": "90",
-        "tier_2_ad_max": "100",
-        "tier_3_ad_min": "180",
-        "tier_3_ad_max": "200",
-        "tier_1_attack_rate": "0.77",
-        "tier_2_attack_rate": "0.77",
-        "tier_3_attack_rate": "0.77",
+        "tier_1_ad_min": "56",
+        "tier_1_ad_max": "62",
+        "tier_2_ad_min": "112",
+        "tier_2_ad_max": "125",
+        "tier_3_ad_min": "225",
+        "tier_3_ad_max": "250",
+        "tier_1_attack_rate": "0.833",
+        "tier_2_attack_rate": "0.833",
+        "tier_3_attack_rate": "0.833",
         "move_speed": "285",
         "attack_range": "4",
         "tier_1_magic_resist": "0",
@@ -1281,12 +1281,12 @@
         "tier_1_dps": "50",
         "tier_2_dps": "100",
         "tier_3_dps": "240",
-        "tier_1_ad_min": "50",
-        "tier_1_ad_max": "60",
-        "tier_2_ad_min": "100",
-        "tier_2_ad_max": "120",
-        "tier_3_ad_min": "240",
-        "tier_3_ad_max": "288",
+        "tier_1_ad_min": "65",
+        "tier_1_ad_max": "78",
+        "tier_2_ad_min": "130",
+        "tier_2_ad_max": "156",
+        "tier_3_ad_min": "312",
+        "tier_3_ad_max": "375",
         "tier_1_attack_rate": "0.91",
         "tier_2_attack_rate": "0.91",
         "tier_3_attack_rate": "0.91",
@@ -1306,8 +1306,8 @@
         "abilities": [
             {
                 "ability_image": "/images/spellicons/lycan_wolf_spawn_shift_png.png",
-                "ability": "Summon Wolves",
-                "description": "Lycan summons two wolves to fight alongside him.  Lycan then transforms and gains [30/40/50]% to his max health, his move_speed is boosted to 650 and gains 40% chance to critically attack for [150/175/200]% bonus damage."
+                "ability": "Shapeshift",
+                "description": "Lycan transforms and gains [40/50/60]% to his max health, his move_speed is boosted to 650 and gains 40% chance to critically attack for [200/225/250]% bonus damage."
             }
         ],
         "lore_text": "Please Lycan, help me get revenge. - In which Wren appeals to Lycan's humanity"
@@ -1480,15 +1480,15 @@
         "tier_1_dps": "34",
         "tier_2_dps": "68",
         "tier_3_dps": "136",
-        "tier_1_ad_min": "45",
-        "tier_1_ad_max": "50",
-        "tier_2_ad_min": "90",
-        "tier_2_ad_max": "100",
-        "tier_3_ad_min": "180",
-        "tier_3_ad_max": "200",
-        "tier_1_attack_rate": "0.71",
-        "tier_2_attack_rate": "0.71",
-        "tier_3_attack_rate": "0.71",
+        "tier_1_ad_min": "56",
+        "tier_1_ad_max": "62",
+        "tier_2_ad_min": "112",
+        "tier_2_ad_max": "125",
+        "tier_3_ad_min": "225",
+        "tier_3_ad_max": "250",
+        "tier_1_attack_rate": "0.769",
+        "tier_2_attack_rate": "0.769",
+        "tier_3_attack_rate": "0.769",
         "move_speed": "290",
         "attack_range": "3",
         "tier_1_magic_resist": "0",
@@ -1505,8 +1505,10 @@
         "abilities": [
             {
                 "ability_image": "/images/spellicons/natures_prophet_summon_tree_png.png",
-                "ability": "Nature's Call",
-                "description": "Nature's Prophet summons a Treant. This Treant is considered a druid."
+                "ability": "Wrath of Nature",
+                "description": "Nature's Prophet zaps a target for [250, 275, 300] damage. This bounces [3, 4, 5] times across enemies in the board, increasing the damage by [10, 13, 15]% per bounce.",
+                "mana_cost": 100,
+                "Cooldown": "[15, 13, 11]"
             }
         ],
         "lore_text": "Enno has reached out to his little forest friends... this could be a problem. - O'nia, Banished Merchant of Revtel"
@@ -2025,9 +2027,9 @@
         "tier_2_ad_max": "100",
         "tier_3_ad_min": "160",
         "tier_3_ad_max": "200",
-        "tier_1_attack_rate": "0.62",
-        "tier_2_attack_rate": "0.62",
-        "tier_3_attack_rate": "0.62",
+        "tier_1_attack_rate": "0.8",
+        "tier_2_attack_rate": "0.8",
+        "tier_3_attack_rate": "0.8",
         "move_speed": "285",
         "attack_range": "3",
         "tier_1_magic_resist": "0",
@@ -2654,7 +2656,7 @@
         "tier_1_health": "700",
         "tier_2_health": "1400",
         "tier_3_health": "2800",
-        "mana": "100",
+        "mana": "60",
         "tier_1_dps": "44",
         "tier_2_dps": "88",
         "tier_3_dps": "175",
@@ -2684,7 +2686,9 @@
             {
                 "ability_image": "/images/spellicons/tusk_walrus_punch_png.png",
                 "ability": "Walrus PUNCH!",
-                "description": "Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. Upon landing, the victim is slowed by 40%."
+                "description": "Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. Upon landing, the victim is slowed by 40%.",
+                "mana_cost": 60,
+                "cooldown": "4"
             }
         ],
         "lore_text": "He was my friend once.  We'll see if he's here to help me or punch me soon enough. - In which Jull reflects on his youth"
@@ -2731,8 +2735,10 @@
         "abilities": [
             {
                 "ability_image": "/images/spellicons/venomancer_plague_ward_png.png",
-                "ability": "Plague Ward",
-                "description": "Venomancer summons [1/1/1] Plague Ward to fight alongside him."
+                "ability": "Venomous Gale",
+                "description": "Launches a ball of venom in a line, poisoning enemy units so that they take [25, 50, 100] damage as well as [10, 20, 40] damage every 3s for a duration of 15s. Affected units lose 50% movement speed and 25 Attack Rate.",
+                "mana_cost": 100,
+                "cooldown": "[10, 8, 6]"
             }
         ],
         "lore_text": "Your creations are beautiful to behold. Let me help you cultivate your garden... - In which Turath learns that flattery gets you everywhere"
@@ -2881,7 +2887,7 @@
             {
                 "ability_image": "/images/spellicons/warlock_shadow_word_png.png",
                 "ability": "Shadow Word",
-                "description": "Warlock whispers an incantation, restoring [50/125/175] health to a friendly unit, or damaging an enemy unit for [50/100/150], every second for 3 seconds."
+                "description": "Warlock whispers an incantation, restoring [168/337/675] health instantly and [56, 112, 225] over 3 seconds, or damaging an enemy unit for [75/150/300], every second for 3 seconds."
             }
         ],
         "lore_text": "Some secrets are meant to be kept... Demnok will pay for his lack of discretion. - Anessix, Biding Time"
