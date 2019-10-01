@@ -1,478 +1,627 @@
-        {
-            "name": 'Claymore',
-            "img": '/images/items/claymore_psd.png',
-            "description": '+30 Attack Damage.',
-            "tier": 1,
-            "type": 'Offensive',
-            "flavortext": "What do ya want me to say, it's a sword. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Brooch of the Aggressor',
-            "img": '/images/items/void_stone_psd.png',
-      description: '+100% Mana gained from attacks.',
-            "tier": 2,
-            "type": 'Support',
-            "flavortext":
-        'The perfect item for someone looking to pick a fight. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Brooch of the Martyr',
-            "img": '/images/items/mana_sponge_psd.png',
-      description:
-        '+50% Mana gained from receiving damage. +50% debuff resistance.',
-            "tier": 1,
-            "type": 'Support',
-            "flavortext": "The greatest acts of heroism come when you're at your lowest. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Tranquil Boots',
-            "img": '/images/items/tranquil_boots_psd.png',
-      description: '+100% Move Speed. +25 Health Regen.',
-            "tier": 1,
-            "type": 'Support',
-            "flavortext":
-        'Those Boots of Speed you sold me were next to worthless. Give me something better to move. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Octarine Essence',
-            "img": '/images/items/octarine_fragment_psd.png',
-      description: 'Reduces ability cooldown by 50%.',
-            "tier": 3,
-            "type": 'Support',
-            "flavortext":
-        'This is but a taste of what the Octarine Core can do. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Vitality Booster',
-            "img": '/images/items/vitality_booster_psd.png',
-      description: '+250 Health.',
-            "tier": 1,
-            "type": 'Defensive',
-            "flavortext": "It isn't about turning the tide, it's about weathering the storm. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Blink Dagger',
-            "img": '/images/items/blink_dagger_psd.png',
-      description:
-        'Teleport to the enemy farthest away from equipped hero and gain 50 mana. (15s cooldown)',
-            "tier": 2,
-            "type": 'Support',
-            "flavortext":
-        'That Oglodi keeps asking for a blink axe... - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Mask of Madness',
-            "img": '/images/items/mask_of_madness_psd.png',
-      description: 'Hero is silenced. +20% Lifesteal. +60 Attack Speed.',
-            "tier": 3,
-            "type": 'Offensive',
-            "flavortext": "Who's to say where madness ends and genius begins... - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Blade Mail',
-            "img": '/images/items/blade_mail_psd.png',
-      description: 'Reflects 30% of damage taken back to the attacker.',
-            "tier": 2,
-            "type": 'Defensive',
-            "flavortext":
-        'I lose about 3 customers a year to people who ask to try this on... - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Battle Fury',
-            "img": '/images/items/battle_fury_psd.png',
-      description:
-        'MELEE ONLY. +70 damage. Melee attacks cleave 35% damage to nearby units.',
-            "tier": 4,
-            "type": 'Offensive',
-            "flavortext": "We know these things never stay one on one... it's best to be prepared. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Dagon',
-            "img": '/images/items/dagon_psd.png',
-      description:
-        'Deal 800 damage to a random enemy unit that has 50% or less Health. (once per battle)',
-            "tier": 4,
-            "type": 'Offensive',
-            "flavortext": "Some people say it's wrong to kick a man when he's down... those people wouldn't last a week in White Spire. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Sacred Relic',
-            "img": '/images/items/sacred_relic_psd.png',
-      description: '+60 Attack Damage.',
-            "tier": 3,
-            "type": 'Offensive',
-            "flavortext": "I think I'm charging a reasonable price for you to hold a small piece of divinity. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Maelstrom',
-            "img": '/images/items/maelstrom_psd.png',
-      description:
-        '25% chance on attack to cast chain lightning for 100 damage to 4 targets.',
-            "tier": 3,
-            "type": 'Offensive',
-            "flavortext":
-        'No one can control the weather... but you can certainly give it a little nudge. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Refresher Orb',
-            "img": '/images/items/refresher_orb_psd.png',
-      description:
-        'After casting an ability, refresh all cooldowns and restore 50 mana to equipped hero. Additionally reduce remaining cooldown time by 50% and restore 25 mana to allies 1 cell away. (once per battle)',
-            "tier": 4,
-            "type": 'Support',
-            "flavortext": "I've seen this change the outcome of many a battle. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Heart of Tarrasque',
-            "img": '/images/items/heart_psd.png',
-      description: '+1000 Health. Regenerate 2% of Max Health every 1s.',
-            "tier": 5,
-            "type": 'Defensive',
-            "flavortext": 'Death is for the lesser. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Divine Rapier',
-            "img": '/images/items/divine_rapier_psd.png',
-      description:
-        '+330 Attack Damage. If Divine Rapier is in combat and you lose a round to another player, they get the Divine Rapier.',
-            "tier": 5,
-            "type": 'Offensive',
-            "flavortext":
-        'Sometimes the Gods demand blood. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Assault Cuirass',
-            "img": '/images/items/assault_cuirass_psd.png',
-      description:
-        'Equipped hero and adjacent allies gain +15 Attack Speed and +10 Armor. Adjacent enemies lose 15 Attack Speed and 10 Armor.',
-            "tier": 5,
-            "type": 'Defensive',
-            "flavortext": "If you're going to charge into battle, be smart about it. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Black King Bar',
-            "img": '/images/items/black_king_bar_psd.png',
-      description:
-        'Equipped hero becomes Magic Immune for 7s once the first enemy has 100% mana. (once per battle)',
-            "tier": 4,
-            "type": 'Defensive',
-            "flavortext": 'Deny your enemies everything. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Mekansm',
-            "img": '/images/items/mekansm_psd.png',
-      description:
-        'When equipped hero has less than 50% health, heal allies up to 3 cells away for 250 Health. (once per battle)',
-            "tier": 3,
-            "type": 'Support',
-            "flavortext": "Don't question how it works, just be grateful that it does - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Daedalus',
-            "img": '/images/items/daedalus_psd.png',
-      description:
-        '+70 Attack Damage. 30% chance to Critical Hit for 200% damage.',
-            "tier": 4,
-            "type": 'Offensive',
-            "flavortext":
-        'Lorlin Lasan has borrowed this weapon on more than one occasion. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Radiance',
-            "img": '/images/items/radiance_psd.png',
-      description:
-        'Burns enemies up to 2 cells away for 60 damage per second.',
-            "tier": 5,
-            "type": 'Offensive',
-            "flavortext": "Ahhh I see you share Hobgen's sensibilities... - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Eye of Skadi',
-            "img": '/images/items/skadi_psd.png',
-      description:
-        '+400 Health. Slows enemies move speed by -35 and attack speed by -45 on attack.',
-            "tier": 4,
-            "type": 'Offensive',
-            "flavortext": "You don't want to know how I came into possession of this... - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Gloves of Haste',
-            "img": '/images/items/gloves_of_haste_psd.png',
-      description: '+25 Attack Speed.',
-            "tier": 1,
-            "type": 'Offensive',
-            "flavortext": "If you're looking to beat someone down fast, these are the gloves for you. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Moon Shard',
-            "img": '/images/items/moon_shard_psd.png',
-      description: '+80 Attack Speed.',
-            "tier": 4,
-            "type": 'Offensive',
-            "flavortext": "Some claim it's a shard of the Mad Moon itself... - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Chainmail',
-            "img": '/images/items/chainmail_psd.png',
-      description: '+10 Armor.',
-            "tier": 1,
-            "type": 'Defensive',
-            "flavortext": "It's practical and reliable. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Blight Stone',
-            "img": '/images/items/blight_stone_psd.png',
-      description: 'Attack target loses 3 Armor.',
-            "tier": 1,
-            "type": 'Offensive',
-            "flavortext": 'A subtle, but effective tool. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Arcane Boots',
-            "img": '/images/items/arcane_boots_psd.png',
-      description:
-        'When equipped hero has greater than 50% mana, restore 25 mana to all allies 2 cells away. (once per battle)',
-            "tier": 2,
-            "type": 'Support',
-            "flavortext": 'Be a boon to your allies. - Zenok, White Spire Fence'
-        }
-        {
-            "name": "Shiva's Guard",
-            "img": '/images/items/shivas_guard_psd.png',
-      description:
-        '+10 Armor. Emits a freezing wave that deals 250 damage to enemies within 3 cells and slows their movement and attack speed for 4s. (once per battle)',
-            "tier": 5,
-            "type": 'Defensive',
-            "flavortext": "Don't ask how this came out of the Sapphire Conclave's vault - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Hood of Defiance',
-            "img": '/images/items/hood_psd.png',
-      description: '+50% Magic Resistance. +10 Health Regen.',
-            "tier": 1,
-            "type": 'Defensive',
-            "flavortext":
-        'Stand tall in the face of your enemies. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Vanguard',
-            "img": '/images/items/vanguard_psd.png',
-      description:
-        '+250 Health. 50% chance to block 70 damage when attacked.',
-            "tier": 3,
-            "type": 'Defensive',
-            "flavortext": "If you're looking to protect yourself you can't do much better. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Skull Basher',
-            "img": '/images/items/basher_psd.png',
-      description:
-        '+25 Attack Damage. 25% chance to deal an extra 100 and stun targets for 1.5s.',
-            "tier": 3,
-            "type": 'Offensive',
-            "flavortext":
-        'A concussed enemy is a soon to be dead enemy. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Bloodthorn',
-            "img": '/images/items/bloodthorn_psd.png',
-      description: "+70 Attack Damage. When an enemy hero has more than 75% mana, silence them for 5s. Attacks against the silenced hero can't miss and crit for 140%. (10s cooldown)",
-            "tier": 5,
-            "type": 'Offensive',
-            "flavortext": "Wielding this blade doesn't make you popular, but it sure makes your enemies dead. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Pipe of Insight',
-            "img": '/images/items/pipe_of_insight_psd.png',
-      description:
-        '+50% Magic Resistance. Once the first enemy has 100% mana, apply a shield that blocks 400 magic damage to allies up to 1 cell away. (once per battle)',
-            "tier": 4,
-            "type": 'Defensive',
-            "flavortext":
-        'Where do you think Tinker gets his crazy ideas from? - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Big-Time Contract',
-            "img": '/images/items/big_time_contract_psd.png',
-      description:
-        '+250 Health. Equipped unit is Blood-bound  in addition to its other types.',
-            "tier": 2,
-            "type": 'Support',
-            "flavortext": "Rita ain't got a monopoly on making things grow. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Scythe of Vyse',
-            "img": '/images/items/scythe_of_vyse_psd.png',
-      description:
-        'When the equipped hero takes damage, transform the offending unit into a pig for 4s. (15s cooldown)',
-            "tier": 4,
-            "type": 'Support',
-            "flavortext": "Shamans can't get enough of this thing, I'm tellin' ya. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Force Staff',
-            "img": '/images/items/force_staff_psd.png',
-      description:
-        'When the equipped hero takes damage from a melee attack, push the attacker up to 6 cells away. (10s cooldown)',
-            "tier": 2,
-            "type": 'Support',
-            "flavortext":
-        'They say Aghanim has a fancier staff, but I’ve never seen it. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Helm of the Undying',
-            "img": '/images/items/helm_of_undying_psd.png',
-      description:
-        '+5 Armor. Equipped hero survives for an extra 4 seconds after receiving a killing blow.',
-            "tier": 2,
-            "type": 'Defensive',
-            "flavortext": "It won't save your life, but it'll help you take someone with you. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Poaching Knife',
-            "img": '/images/items/poaching_knife_psd.png',
-      description:
-        'Equipped hero has a 30% chance of producing 1 gold when they kill an enemy. Attacks against units with less than 20% health crit for 200%.',
-            "tier": 3,
-            "type": 'Offensive',
-            "flavortext":
-        'May it grant you better luck than it did the centaur whose corpse I found it on. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Bracers of Desperation',
-            "img": '/images/items/desperation_bracer_psd.png',
-      description: "Equipped hero resets their cooldown and gets full mana when below 30% health. Attack target's magic resistance is reduced by 30%.",
-            "tier": 3,
-            "type": 'Support',
-            "flavortext": "You don't find out what you're capable of until your back's against the wall. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Summoning Stone',
-            "img": '/images/items/summoning_stone_psd.png',
-      description:
-        'Allied summoned units have +150 Health and +45 Attack Speed.',
-            "tier": 2,
-            "type": 'Global',
-            "flavortext":
-        'Drown your enemies in an unyielding tide of flesh. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'A Higher Class of Criminal',
-            "img": '/images/items/better_units_psd.png',
-      description: 'Units in shop offered as if you were 1 level higher.',
-            "tier": 5,
-            "type": 'Global',
-            "flavortext":
-        'I can introduce you to some people... - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Expanded Roster',
-            "img": '/images/items/add_unit_cap_psd.png',
-      description: '+1 Unit cap.',
-            "tier": 5,
-            "type": 'Global',
-            "flavortext": "My advice?  Don't fight fair. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Friends and Family Discount',
-            "img": '/images/items/cheaper_units_psd.png',
-      description: 'All units are 1 gold cheaper.',
-            "tier": 4,
-            "type": 'Global',
-            "flavortext": "Don't tell anyone, but you're my favorite criminal mastermind. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Fall From Grace',
-            "img": '/images/items/humans_undead_psd.png',
-      description:
-        'Human  units count as Heartless  instead when counting Alliances.',
-            "tier": 2,
-            "type": 'Global',
-            "flavortext":
-        'This town has a way of beating the good out of you. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Embarrassment of Riches',
-            "img": '/images/items/extra_items_psd.png',
-      description: 'Neutral rounds offer one additional item choice.',
-            "tier": 1,
-            "type": 'Global',
-            "flavortext":
-        'Let me show you one more thing... - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Smuggler',
-            "img": '/images/items/better_items_psd.png',
-      description:
-        'Quality of items from neutral rounds are offered from 1 wave higher.',
-            "tier": 2,
-            "type": 'Global',
-            "flavortext":
-        'The stuff you REALLY want is in the back. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Desperate Measures',
-            "img": '/images/items/bonus_damage_lowlife_psd.png',
-      description:
-        'Your units gain +0.2% Attack Damage and +0.2% Mana gain on damage taken/received for each point of damage your Underlord has taken.',
-            "tier": 5,
-            "type": 'Global',
-            "flavortext": "There's nothing more dangerous than a cornered animal. - Zenok, White Spire Fence"
-        }
-        {
-            "name": 'Aegis of the Immortal',
-            "img": '/images/items/prevent_next_death_psd.png',
-      description:
-        'When you would otherwise take fatal damage, take no damage and destroy Aegis.',
-            "tier": 2,
-            "type": 'Global',
-            "flavortext":
-        'Sometimes all you need is a second chance. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Dawning of Ristul',
-            "img": '/images/items/dawning_of_ristul_psd.png',
-      description: 'Healing for both crews is reduced by 50%.',
-            "tier": 3,
-            "type": 'Global',
-            "flavortext":
-        'The Vhoul reacted to the war in Roseleaf poorly. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Healing Ward',
-            "img": '/images/items/Healing_ward_icon.png',
-      description: 'Heals friendly units within 1 cell for 20hp/s.',
-            "tier": 3,
-            "type": 'Contraption',
-            "flavortext":
-        'It’s the gift that keeps on giving. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Barricade',
-            "img": '/images/items/Barricade_icon.png',
-      description:
-        'Two placeable barriers to block enemies and ranged attacks. Immune to spells.',
-            "tier": 2,
-            "type": 'Contraption',
-            "flavortext":
-        'When you can’t find cover, bring it with you. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Tombstone',
-            "img": '/images/items/Tombstone_icon.png',
-      description:
-        'Ally and enemy heroes spawn zombies when they die within 2 cells of the Tombstone.',
-            "tier": 4,
-            "type": 'Contraption',
-            "flavortext":
-        'Finally, something to do with all these corpses. - Zenok, White Spire Fence'
-        }
-        {
-            "name": 'Target Buddy',
-            "img": '/images/items/Target_buddy_icon.png',
-      description: 'Taunts enemies and draws fire. Can equip items.',
-            "tier": 2,
-            "type": 'Contraption',
-            "flavortext":
-        'Sadly, I’ve had worse fighting companions than this sack of straw. - Zenok, White Spire Fence'
-        }
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cd6"
+    },
+    "name": "Tranquil Boots",
+    "img": "/images/items/tranquil_boots_psd.png",
+    "description": "+100% Move Speed. +25 Health Regen.",
+    "tier": 1,
+    "type": "Support",
+    "flavortext": "Those Boots of Speed you sold me were next to worthless. Give me something better to move. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cd7"
+    },
+    "name": "Brooch of the Aggressor",
+    "img": "/images/items/void_stone_psd.png",
+    "description": "+100% Mana gained from attacks.",
+    "tier": 2,
+    "type": "Support",
+    "flavortext": "The perfect item for someone looking to pick a fight. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cd8"
+    },
+    "name": "Claymore",
+    "img": "/images/items/claymore_psd.png",
+    "description": "+30 Attack Damage.",
+    "tier": 1,
+    "type": "Offensive",
+    "flavortext": "What do ya want me to say, it's a sword. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cd9"
+    },
+    "name": "Octarine Essence",
+    "img": "/images/items/octarine_fragment_psd.png",
+    "description": "Reduces ability cooldown by 50%.",
+    "tier": 3,
+    "type": "Support",
+    "flavortext": "This is but a taste of what the Octarine Core can do. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cda"
+    },
+    "name": "Brooch of the Martyr",
+    "img": "/images/items/mana_sponge_psd.png",
+    "description": "+50% Mana gained from receiving damage. +50% debuff resistance.",
+    "tier": 1,
+    "type": "Support",
+    "flavortext": "The greatest acts of heroism come when you're at your lowest. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cdb"
+    },
+    "name": "Vitality Booster",
+    "img": "/images/items/vitality_booster_psd.png",
+    "description": "+250 Health.",
+    "tier": 1,
+    "type": "Defensive",
+    "flavortext": "It isn't about turning the tide, it's about weathering the storm. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cdc"
+    },
+    "name": "Assault Cuirass",
+    "img": "/images/items/assault_cuirass_psd.png",
+    "description": "Equipped hero and adjacent allies gain +15 Attack Speed and +10 Armor. Adjacent enemies lose 15 Attack Speed and 10 Armor.",
+    "tier": 5,
+    "type": "Defensive",
+    "flavortext": "If you're going to charge into battle, be smart about it. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cdd"
+    },
+    "name": "Black King Bar",
+    "img": "/images/items/black_king_bar_psd.png",
+    "description": "Equipped hero becomes Magic Immune for 7s once the first enemy has 100% mana. (once per battle)",
+    "tier": 4,
+    "type": "Defensive",
+    "flavortext": "Deny your enemies everything. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cde"
+    },
+    "name": "Mekansm",
+    "img": "/images/items/mekansm_psd.png",
+    "description": "When equipped hero has less than 50% health, heal allies up to 3 cells away for 250 Health. (once per battle)",
+    "tier": 3,
+    "type": "Support",
+    "flavortext": "Don't question how it works, just be grateful that it does - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cdf"
+    },
+    "name": "Dagon",
+    "img": "/images/items/dagon_psd.png",
+    "description": "Deal 800 damage to a random enemy unit that has 50% or less Health. (once per battle)",
+    "tier": 4,
+    "type": "Offensive",
+    "flavortext": "Some people say it's wrong to kick a man when he's down... those people wouldn't last a week in White Spire. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ce0"
+    },
+    "name": "Daedalus",
+    "img": "/images/items/daedalus_psd.png",
+    "description": "+70 Attack Damage. 30% chance to Critical Hit for 200% damage.",
+    "tier": 4,
+    "type": "Offensive",
+    "flavortext": "Lorlin Lasan has borrowed this weapon on more than one occasion. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ce1"
+    },
+    "name": "Cloak",
+    "img": "/images/items/cloak_psd.png",
+    "description": "+15% Magic Resistance.",
+    "tier": 1,
+    "type": "Defensive",
+    "flavortext": "Be careful out there, a storm is coming... - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ce2"
+    },
+    "name": "Eye of Skadi",
+    "img": "/images/items/skadi_psd.png",
+    "description": "+400 Health. Slows enemies move speed by -35 and attack speed by -45 on attack.",
+    "tier": 4,
+    "type": "Offensive",
+    "flavortext": "You don't want to know how I came into possession of this... - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ce3"
+    },
+    "name": "Radiance",
+    "img": "/images/items/radiance_psd.png",
+    "description": "Burns enemies up to 2 cells away for 60 damage per second.",
+    "tier": 5,
+    "type": "Offensive",
+    "flavortext": "Ahhh I see you share Hobgen's sensibilities... - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ce4"
+    },
+    "name": "Gloves of Haste",
+    "img": "/images/items/gloves_of_haste_psd.png",
+    "description": "+25 Attack Speed.",
+    "tier": 1,
+    "type": "Offensive",
+    "flavortext": "If you're looking to beat someone down fast, these are the gloves for you. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ce5"
+    },
+    "name": "Blink Dagger",
+    "img": "/images/items/blink_dagger_psd.png",
+    "description": "Teleport to the enemy farthest away from equipped hero and gain 50 mana. (15s cooldown)",
+    "tier": 2,
+    "type": "Support",
+    "flavortext": "That Oglodi keeps asking for a blink axe... - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ce6"
+    },
+    "name": "Blight Stone",
+    "img": "/images/items/blight_stone_psd.png",
+    "description": "Attack target loses 3 Armor.",
+    "tier": 1,
+    "type": "Offensive",
+    "flavortext": "A subtle, but effective tool. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ce7"
+    },
+    "name": "Moon Shard",
+    "img": "/images/items/moon_shard_psd.png",
+    "description": "+80 Attack Speed.",
+    "tier": 4,
+    "type": "Offensive",
+    "flavortext": "Some claim it's a shard of the Mad Moon itself... - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ce8"
+    },
+    "name": "Blade Mail",
+    "img": "/images/items/blade_mail_psd.png",
+    "description": "Reflects 30% of damage taken back to the attacker.",
+    "tier": 2,
+    "type": "Defensive",
+    "flavortext": "I lose about 3 customers a year to people who ask to try this on... - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ce9"
+    },
+    "name": "Arcane Boots",
+    "img": "/images/items/arcane_boots_psd.png",
+    "description": "When equipped hero has greater than 50% mana, restore 25 mana to all allies 2 cells away. (once per battle)",
+    "tier": 2,
+    "type": "Support",
+    "flavortext": "Be a boon to your allies. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cea"
+    },
+    "name": "Mask of Madness",
+    "img": "/images/items/mask_of_madness_psd.png",
+    "description": "Hero is silenced. +20% Lifesteal. +60 Attack Speed.",
+    "tier": 3,
+    "type": "Offensive",
+    "flavortext": "Who's to say where madness ends and genius begins... - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ceb"
+    },
+    "name": "Battle Fury",
+    "img": "/images/items/battle_fury_psd.png",
+    "description": "MELEE ONLY. +70 damage. Melee attacks cleave 35% damage to nearby units.",
+    "tier": 4,
+    "type": "Offensive",
+    "flavortext": "We know these things never stay one on one... it's best to be prepared. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cec"
+    },
+    "name": "Chainmail",
+    "img": "/images/items/chainmail_psd.png",
+    "description": "+10 Armor.",
+    "tier": 1,
+    "type": "Defensive",
+    "flavortext": "It's practical and reliable. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048ced"
+    },
+    "name": "Bloodthorn",
+    "img": "/images/items/bloodthorn_psd.png",
+    "description": "+70 Attack Damage. When an enemy hero has more than 75% mana, silence them for 5s. Attacks against the silenced hero can't miss and crit for 140%. (10s cooldown)",
+    "tier": 5,
+    "type": "Offensive",
+    "flavortext": "Wielding this blade doesn't make you popular, but it sure makes your enemies dead. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cee"
+    },
+    "name": "Big-Time Contract",
+    "img": "/images/items/big_time_contract_psd.png",
+    "description": "+250 Health. Equipped unit is Blood-bound  in addition to its other types.",
+    "tier": 2,
+    "type": "Support",
+    "flavortext": "Rita ain't got a monopoly on making things grow. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cef"
+    },
+    "name": "Heart of Tarrasque",
+    "img": "/images/items/heart_psd.png",
+    "description": "+1000 Health. Regenerate 2% of Max Health every 1s.",
+    "tier": 5,
+    "type": "Defensive",
+    "flavortext": "Death is for the lesser. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cf0"
+    },
+    "name": "Divine Rapier",
+    "img": "/images/items/divine_rapier_psd.png",
+    "description": "+330 Attack Damage. If Divine Rapier is in combat and you lose a round to another player, they get the Divine Rapier.",
+    "tier": 5,
+    "type": "Offensive",
+    "flavortext": "Sometimes the Gods demand blood. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cf1"
+    },
+    "name": "Force Staff",
+    "img": "/images/items/force_staff_psd.png",
+    "description": "When the equipped hero takes damage from a melee attack, push the attacker up to 6 cells away. (10s cooldown)",
+    "tier": 2,
+    "type": "Support",
+    "flavortext": "They say Aghanim has a fancier staff, but I’ve never seen it. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cf2"
+    },
+    "name": "Sacred Relic",
+    "img": "/images/items/sacred_relic_psd.png",
+    "description": "+60 Attack Damage.",
+    "tier": 3,
+    "type": "Offensive",
+    "flavortext": "I think I'm charging a reasonable price for you to hold a small piece of divinity. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cf3"
+    },
+    "name": "Poaching Knife",
+    "img": "/images/items/poaching_knife_psd.png",
+    "description": "Equipped hero has a 30% chance of producing 1 gold when they kill an enemy. Attacks against units with less than 20% health crit for 200%.",
+    "tier": 3,
+    "type": "Offensive",
+    "flavortext": "May it grant you better luck than it did the centaur whose corpse I found it on. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cf4"
+    },
+    "name": "Maelstrom",
+    "img": "/images/items/maelstrom_psd.png",
+    "description": "25% chance on attack to cast chain lightning for 100 damage to 4 targets.",
+    "tier": 3,
+    "type": "Offensive",
+    "flavortext": "No one can control the weather... but you can certainly give it a little nudge. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cf5"
+    },
+    "name": "A Higher Class of Criminal",
+    "img": "/images/items/better_units_psd.png",
+    "description": "Units in shop offered as if you were 1 level higher.",
+    "tier": 5,
+    "type": "Global",
+    "flavortext": "I can introduce you to some people... - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cf7"
+    },
+    "name": "Expanded Roster",
+    "img": "/images/items/add_unit_cap_psd.png",
+    "description": "+1 Unit cap.",
+    "tier": 5,
+    "type": "Global",
+    "flavortext": "My advice?  Don't fight fair. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cf8"
+    },
+    "name": "Friends and Family Discount",
+    "img": "/images/items/cheaper_units_psd.png",
+    "description": "All units are 1 gold cheaper.",
+    "tier": 4,
+    "type": "Global",
+    "flavortext": "Don't tell anyone, but you're my favorite criminal mastermind. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cf9"
+    },
+    "name": "Refresher Orb",
+    "img": "/images/items/refresher_orb_psd.png",
+    "description": "After casting an ability, refresh all cooldowns and restore 50 mana to equipped hero. Additionally reduce remaining cooldown time by 50% and restore 25 mana to allies 1 cell away. (once per battle)",
+    "tier": 4,
+    "type": "Support",
+    "flavortext": "I've seen this change the outcome of many a battle. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cfa"
+    },
+    "name": "Vicious Intent",
+    "img": "/images/items/extra_damage_unit_psd.png",
+    "description": "Each of your surviving units, including summons, deals 1 additional damage to opponents if they lose to you.",
+    "tier": 3,
+    "type": "Global",
+    "flavortext": "Sometimes it's not just about winning, you need to send a message. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cfb"
+    },
+    "name": "Recruiter",
+    "img": "/images/items/free_first_reroll_psd.png",
+    "description": "The first reroll each round is free.",
+    "tier": 5,
+    "type": "Global",
+    "flavortext": "Don't settle for a crew you don't stand behind. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cfc"
+    },
+    "name": "Fall From Grace",
+    "img": "/images/items/humans_undead_psd.png",
+    "description": "Human  units count as Heartless  instead when counting Alliances.",
+    "tier": 2,
+    "type": "Global",
+    "flavortext": "This town has a way of beating the good out of you. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cfd"
+    },
+    "name": "Silver Lining",
+    "img": "/images/items/gold_on_defeat_psd.png",
+    "description": "Get 1 charge when you win a fight. When you lose a fight, if charges remain, get 1 gold and lose 1 charge. Starts with 1 charge.",
+    "tier": 2,
+    "type": "Global",
+    "flavortext": "People love a comeback story. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cfe"
+    },
+    "name": "Hood of Defiance",
+    "img": "/images/items/hood_psd.png",
+    "description": "+50% Magic Resistance. +10 Health Regen.",
+    "tier": 1,
+    "type": "Defensive",
+    "flavortext": "Stand tall in the face of your enemies. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048cff"
+    },
+    "name": "Helm of the Undying",
+    "img": "/images/items/helm_of_undying_psd.png",
+    "description": "+5 Armor. Equipped hero survives for an extra 4 seconds after receiving a killing blow.",
+    "tier": 2,
+    "type": "Defensive",
+    "flavortext": "It won't save your life, but it'll help you take someone with you. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d00"
+    },
+    "name": "Shiva's Guard",
+    "img": "/images/items/shivas_guard_psd.png",
+    "description": "+10 Armor. Emits a freezing wave that deals 250 damage to enemies within 3 cells and slows their movement and attack speed for 4s. (once per battle)",
+    "tier": 5,
+    "type": "Defensive",
+    "flavortext": "Don't ask how this came out of the Sapphire Conclave's vault - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d01"
+    },
+    "name": "Vanguard",
+    "img": "/images/items/vanguard_psd.png",
+    "description": "+250 Health. 50% chance to block 70 damage when attacked.",
+    "tier": 3,
+    "type": "Defensive",
+    "flavortext": "If you're looking to protect yourself you can't do much better. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d02"
+    },
+    "name": "Pipe of Insight",
+    "img": "/images/items/pipe_of_insight_psd.png",
+    "description": "+50% Magic Resistance. Once the first enemy has 100% mana, apply a shield that blocks 400 magic damage to allies up to 1 cell away. (once per battle)",
+    "tier": 4,
+    "type": "Defensive",
+    "flavortext": "Where do you think Tinker gets his crazy ideas from? - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d03"
+    },
+    "name": "Scythe of Vyse",
+    "img": "/images/items/scythe_of_vyse_psd.png",
+    "description": "When the equipped hero takes damage, transform the offending unit into a pig for 4s. (15s cooldown)",
+    "tier": 4,
+    "type": "Support",
+    "flavortext": "Shamans can't get enough of this thing, I'm tellin' ya. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d04"
+    },
+    "name": "Desperate Measures",
+    "img": "/images/items/bonus_damage_lowlife_psd.png",
+    "description": "Your units gain +0.2% Attack Damage and +0.2% Mana gain on damage taken/received for each point of damage your Underlord has taken.",
+    "tier": 5,
+    "type": "Global",
+    "flavortext": "There's nothing more dangerous than a cornered animal. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d05"
+    },
+    "name": "Recruiter",
+    "img": "/images/items/free_first_reroll_psd.png",
+    "description": "Rerolls cost 1 gold less.",
+    "tier": 4,
+    "type": "Global",
+    "flavortext": "Don't settle for a crew you don't stand behind. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d06"
+    },
+    "name": "Dawning of Ristul",
+    "img": "/images/items/dawning_of_ristul_psd.png",
+    "description": "Healing for both crews is reduced by 50%.",
+    "tier": 3,
+    "type": "Global",
+    "flavortext": "The Vhoul reacted to the war in Roseleaf poorly. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d07"
+    },
+    "name": "Smuggler",
+    "img": "/images/items/better_items_psd.png",
+    "description": "Quality of items from neutral rounds are offered from 1 wave higher.",
+    "tier": 2,
+    "type": "Global",
+    "flavortext": "The stuff you REALLY want is in the back. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d08"
+    },
+    "name": "Bracers of Desperation",
+    "img": "/images/items/desperation_bracer_psd.png",
+    "description": "Equipped hero resets their cooldown and gets full mana when below 30% health. Attack target's magic resistance is reduced by 30%.",
+    "tier": 3,
+    "type": "Support",
+    "flavortext": "You don't find out what you're capable of until your back's against the wall. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d09"
+    },
+    "name": "Barricade",
+    "img": "/images/items/Barricade_icon.png",
+    "description": "Two placeable barriers to block enemies and ranged attacks. Immune to spells.",
+    "tier": 2,
+    "type": "Contraption",
+    "flavortext": "When you can’t find cover, bring it with you. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d0a"
+    },
+    "name": "Healing Ward",
+    "img": "/images/items/Healing_ward_icon.png",
+    "description": "Heals friendly units within 1 cell for 20hp/s.",
+    "tier": 3,
+    "type": "Contraption",
+    "flavortext": "It’s the gift that keeps on giving. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d0b"
+    },
+    "name": "Embarrassment of Riches",
+    "img": "/images/items/extra_items_psd.png",
+    "description": "Neutral rounds offer one additional item choice.",
+    "tier": 1,
+    "type": "Global",
+    "flavortext": "Let me show you one more thing... - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d0c"
+    },
+    "name": "Tombstone",
+    "img": "/images/items/Tombstone_icon.png",
+    "description": "Ally and enemy heroes spawn zombies when they die within 2 cells of the Tombstone.",
+    "tier": 4,
+    "type": "Contraption",
+    "flavortext": "Finally, something to do with all these corpses. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d0d"
+    },
+    "name": "Skull Basher",
+    "img": "/images/items/basher_psd.png",
+    "description": "+25 Attack Damage. 25% chance to deal an extra 100 and stun targets for 1.5s.",
+    "tier": 3,
+    "type": "Offensive",
+    "flavortext": "A concussed enemy is a soon to be dead enemy. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d0e"
+    },
+    "name": "Target Buddy",
+    "img": "/images/items/Target_buddy_icon.png",
+    "description": "Taunts enemies and draws fire. Can equip items.",
+    "tier": 2,
+    "type": "Contraption",
+    "flavortext": "Sadly, I’ve had worse fighting companions than this sack of straw. - Zenok, White Spire Fence"
+}
+{
+    "_id": {
+        "$oid": "5d878b283c19aab293048d0f"
+    },
+    "name": "Aegis of the Immortal",
+    "img": "/images/items/prevent_next_death_psd.png",
+    "description": "When you would otherwise take fatal damage, take no damage and destroy Aegis.",
+    "tier": 2,
+    "type": "Global",
+    "flavortext": "Sometimes all you need is a second chance. - Zenok, White Spire Fence"
+}

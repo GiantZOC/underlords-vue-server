@@ -12,11 +12,11 @@ module.exports = {
             return item;
         },
         getAlliances: async(_, args, {Alliance}) => {
-            const alliances = await Alliance.find({}).populate('heroes');;
+            const alliances = await Alliance.find({}).populate('heroes');
             return alliances;
         },
         getAlliance: async (_, {allianceId}, {Alliance}) => {
-            const alliance = await Alliance.findOne({_id: allianceId}).populate('heroes');;
+            const alliance = await Alliance.findOne({_id: allianceId}).populate('heroes');
             return alliance;
         },
         getAllianceByName: async (_, {allianceName}, {Alliance}) => {
