@@ -23,6 +23,19 @@ module.exports = {
             const alliance = await Alliance.findOne({name: allianceName}).populate('heroes');
             return alliance;
         },
+        infiniteScrollHeroes: async(_, {pageNum, pageSize}, {Hero}) => {
+            let Heroes;
+            if(pageNum === 1){
+                Heroes = await Hero.find({}).sort({name: 'asc'}).populate('alliances').limit(pageSize);
+            } else{
+                // if page number is greater than 1, figure out how many documents to skip
+                const skips = pageSize * (pageNum - 1);
+                Heroes = await Hero.find({}).sort({name: 'asc'}).populate('alliances').skip(skips).limit(pageSize);
+            }
+             const totalDocs = await Hero.countDocuments();
+             const hasMore = totalDocs > pageSize * pageNum;
+             return {Heroes, hasMore};
+        },
         getHeroes: async(_, args, {Hero}) => {
             const heroes = await Hero.find({}).populate('alliances');
             return heroes;

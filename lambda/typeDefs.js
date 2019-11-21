@@ -85,6 +85,11 @@ const typeDefs = gql`
     ace_description: String
   }
 
+  type HeroesPage {
+  Heroes: [Hero]
+  hasMore: Boolean
+}
+
   type Query {
     getItem(itemId: ID): Item
     getItems: [Item]
@@ -94,6 +99,7 @@ const typeDefs = gql`
     getHero(heroId: ID): Hero
     getHeroByName(heroName: String): Hero
     getHeroes: [Hero]
+    infiniteScrollHeroes(pageNum: Int!, pageSize: Int!): HeroesPage
   }
 
   type Mutation {
