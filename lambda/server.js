@@ -28,7 +28,6 @@ const server = new ApolloServer({
       message: error.message.replace("Context creation failed:", "")
     };
   },
-
   context: async ({ event, context }) => {
     return { 
       Item,
